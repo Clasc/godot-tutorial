@@ -39,7 +39,7 @@
  
  ### Bird
  
- ### Eagle
+ ### Hedgehog
  Could carry Fruit on its back. This can be acquired if the player manages to jump over the Eagle at the right moment.
  
 ## Biomes
