@@ -30,3 +30,8 @@ func on_start_button_pressed():
 	$StartButton.hide()
 	$SnakeButton.hide()
 	emit_signal("start_game")
+	
+func on_snake_button_pressed():
+	$StartButton.hide()
+	$SnakeButton.hide()
+	emit_signal("start_snake_game")
