@@ -16,6 +16,7 @@ func show_game_over():
 	# Make a one-shot timer and wait for it to finish.
 	yield(get_tree().create_timer(1), "timeout")
 	$StartButton.show()
+	$SnakeButton.show()
 
 func update_score(score):
 	$ScoreLabel.text = str(score)
@@ -27,4 +28,5 @@ func on_message_timer_timeout():
 
 func on_start_button_pressed():
 	$StartButton.hide()
+	$SnakeButton.hide()
 	emit_signal("start_game")
